@@ -10,10 +10,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2) do
+ActiveRecord::Schema.define(version: 2020_04_02_164145) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "characters", force: :cascade do |t|
+    t.string "char_name"
+    t.string "char_class"
+    t.integer "char_level"
+    t.string "char_race"
+    t.string "char_alignment"
+    t.string "char_deity"
+    t.string "char_size"
+    t.integer "char_age"
+    t.string "char_gender"
+    t.integer "char_height"
+    t.integer "char_weight"
+    t.string "char_eyes"
+    t.string "char_hair"
+    t.string "char_skin"
+    t.integer "char_speed"
+    t.integer "char_xp"
+    t.string "char_campaign"
+    t.string "char_languages"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "user_id"
+    t.index ["user_id"], name: "index_characters_on_user_id"
+  end
 
   create_table "examples", force: :cascade do |t|
     t.text "text", null: false
@@ -33,5 +58,6 @@ ActiveRecord::Schema.define(version: 2) do
     t.index ["token"], name: "index_users_on_token", unique: true
   end
 
+  add_foreign_key "characters", "users"
   add_foreign_key "examples", "users"
 end
