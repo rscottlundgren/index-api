@@ -7,6 +7,7 @@ curl "http://localhost:4741/characters/${ID}" \
   --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "character": {
+      "char_id": "'"${ID}"'",
       "char_name": "'"${NAME}"'",
       "char_alignment": "'"${ALIGNMENT}"'",
       "char_deity": "'"${DEITY}"'",
