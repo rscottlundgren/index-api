@@ -16,8 +16,7 @@ curl "http://localhost:4741/characters" \
       "char_gender": "'"${GENDER}"'",
       "char_xp": "'"${XP}"'",
       "char_campaign": "'"${CAMPAIGN}"'",
-      "char_languages": "'"${LANGUAGES}"'",
-      "user_id": "'"${USERID}"'"
+      "char_languages": "'"${LANGUAGES}"'"
     }
   }'
 
