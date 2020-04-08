@@ -1,10 +1,14 @@
 # "Critical Index" - Back End - v1
 
 ## Description
-"Critical Index" is a SaaS Digital Whose Main Purpose is to Serve as an Assistive Compendium in Both Running and Participating in RPG/Tabletop Gaming. This is the Front End Development/Production Version of Project 2 for General Assembly's Software Engineering Immersive Program
+"Critical Index" is a SaaS Whose Main Purpose is to Serve as an Assistive Compendium in Both Running and Participating in RPG/Tabletop Gaming. This is the Back End Development/Production Version of Project 2 for General Assembly's Software Engineering Immersive Program
+
+[NOTE: Link below leads directly to the API. A supplemental link has been provided underneath which will direct you to the client site]
 
 ## Website
-[Link to the live URL](https://rscottlundgren.github.io/index-client/)
+[Link to the API](https://rscottlundgren.github.io/index-client/)
+
+[Link to the Client](https://rscottlundgren.github.io/index-client/)
 
 ## List of Full Stack Technologies Used
 - Browser template
@@ -36,10 +40,9 @@
     * [ ] Text
 
 ## Wireframes
-- [Project 1 - Wireframe 1](https://www.dropbox.com/s/br56crxhhcp2ptm/Project%201_WireFrame%201.pdf?dl=0)
-- [Project 1 - Wireframe 2](https://www.dropbox.com/s/wo6s52pnsp1upds/Project%201_WireFrame%202.pdf?dl=0)
-- [Project 1 - Wireframe 3](https://www.dropbox.com/s/bi1ul68hd2qiiap/Project%201_WireFrame%203.pdf?dl=0)
-- [Project 1 - Wireframe 4](https://www.dropbox.com/s/lreylp8rl7jtjop/Project%201_WireFrame%204.pdf?dl=0)
+- [Project 2 - Entity Relationship Diagram](000 - ERD - Synopsis copy.jpeg)
+- [Project 2 - Character Sheet (Front)](001 - CS - pg1 copy.jpeg)
+- [Project 2 - Character Sheet (Back)](002 - CS - pg2 copy.jpeg)
 
 ## User Stories
 - Story
